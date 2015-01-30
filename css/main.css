@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+	display: block;
 	background-color: #79756f;
 	padding: 0;
 	margin: 0;
@@ -22,9 +23,10 @@ h2 {
 	font-weight: bold;
 	font-size: 2rem;
 	font-family: "Denk One", sans-serif;
-	line-height: 2;
 	color: #79756f;
-	margin: 0.25em;
+	margin: 0;
+	margin-top: 0.5em;
+
 }
 
 h3 {
@@ -58,10 +60,10 @@ blockquote footer {
 	text-align: right;
 	line-height: 4;
 	font-size: .75rem;
-
 }
 
 nav {
+	display: block;
 	background-color: #79756f;
 	text-align: center;
 }
@@ -93,13 +95,25 @@ h2 ol {
 	padding: 1em;
 }
 
+figure {
+	display: inline-block;
+	padding: 1em;
+	margin: 0;
+	border: 4px solid #86827c;
+	border-radius: 10px
+}
+
+figcaption {
+	display: inline
+	margin: 0
+	padding: 0;
+}
+
 aside ol {
 	list-style-type: circle;
 	padding: 1em;
 	margin: 0.5em;
 }
-
-
 
 .mer, .ven, .ear, .mar {
 	list-style-type: lower-roman;
@@ -147,4 +161,15 @@ figcaption {
 	font-size: .75rem;
 	font-style: italic;
 	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
+aside {
+	display: block;
+	background-color: #79756f;
+	padding: 0.5em 0 0 0;
+}
+
+aside h2 {
+	color: #fff;
 }
