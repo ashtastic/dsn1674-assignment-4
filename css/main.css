@@ -1,0 +1,150 @@
+html {
+	background-color: #dbd6cf;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	background-color: #79756f;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1.5;
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 2;
+	color: #79756f;
+	margin: 0.25em;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.75rem;
+	font-family: "Denk One", sans-serif;
+	line-height: 1;
+	color: #79756f;
+}
+
+p {
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+strong {
+	color: #86827c;
+}
+
+blockquote q {
+	font-family: "Georgia", serif;
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+blockquote footer {
+	font-family: "Georgia", serif;
+	color: #79756f;
+	text-align: right;
+	line-height: 4;
+	font-size: .75rem;
+
+}
+
+nav {
+	background-color: #79756f;
+	text-align: center;
+}
+
+nav ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0;
+	padding: 1em 0em 1em 0em;
+}
+
+nav a {
+	display: inline;
+	padding: 1em;
+	text-decoration: none;
+	background-color: #713837;
+	color: #fff;
+	border-radius: 4px;
+	width: 6em;
+}
+
+h2 ol {
+	list-style-type: lower-roman;
+	padding: 1em;
+}
+
+aside ol {
+	list-style-type: circle;
+	padding: 1em;
+	margin: 0.5em;
+}
+
+
+
+.mer, .ven, .ear, .mar {
+	list-style-type: lower-roman;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+.mars, .venus {
+	list-style-type: circle;
+	color: #713837;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+}
+
+dl {
+	list-style-type: none;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+dt {
+	font-weight: bold;
+}
+
+a {
+	font-weight: normal;
+	font-size: 1rem;
+	font-family: "Arial", sans-serif;
+	line-height: 1.5;
+	color: #713837;
+}
+
+a:hover {
+	color: red;
+}
+
+mark {
+	background-color: #dbd6cf;
+	color: black;
+}
+
+figcaption {
+	font-size: .75rem;
+	font-style: italic;
+	font-family: "Arial", sans-serif;
+}
