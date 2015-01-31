@@ -54,17 +54,21 @@ strong {
 }
 
 blockquote q {
+	display: block;
+	padding: 0;
+	margin: 0;
 	font-family: "Georgia", serif;
 	font-size: 1.5rem;
 	font-style: italic;
-	line-height: 1.5;
 }
 
 blockquote footer {
+	display: block;
+	padding: 1em;
+	margin: 0;
 	font-family: "Georgia", serif;
 	color: #79756f;
 	text-align: right;
-	line-height: 4;
 	font-size: .75rem;
 }
 
