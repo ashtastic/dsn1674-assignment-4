@@ -107,6 +107,8 @@ h2 ol {
 
 figure {
 	display: inline-block;
+	min-width: 32em;
+	max-width: 32em;
 	padding: 1em;
 	margin: 0 0 0 0.5em;
 	border: 4px solid #86827c;
@@ -115,7 +117,7 @@ figure {
 }
 
 figcaption {
-	display: inline;
+	display: block;
 	margin: 0;
 	padding: 0;
 }
